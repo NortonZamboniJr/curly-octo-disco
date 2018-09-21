@@ -14,7 +14,7 @@
       <input type="submit" class="btn1 supernorton" [value]="btnText" (click)="searchCharacter()">
       <input type="submit" class="btn2" value="Delete Last Information" (click)="deleteQuest()">
     </form>
-  </div>
+  </div> 
   <div class="col">
     <p class="quest-container" *ngFor="let variable of quests; let i = index" (click)="removeQuest(i)">
       {{ variable }}
