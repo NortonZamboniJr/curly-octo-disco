@@ -93,6 +93,32 @@ export class HomeComponent implements OnInit {
       },
      // err => this.error = 'Erro de conexão.'
     ); 
+	
+	if(this.character.class == 1)
+      this.character.class = 'Warrior';
+    if(this.character.class == 2)
+      this.character.class = 'Paladin';
+      if(this.character.class == 3)
+      this.character.class = 'Hunter';
+      if(this.character.class == 4)
+      this.character.class = 'Rogue';
+      if(this.character.class == 5)
+      this.character.class = 'Priest';
+      if(this.character.class == 6)
+      this.character.class = 'Death Knight';
+      if(this.character.class == 7)
+      this.character.class = 'Shaman';
+      if(this.character.class == 8)
+      this.character.class = 'Mage';
+      if(this.character.class == 9)
+      this.character.class = 'Warlock';
+      if(this.character.class == 10)
+      this.character.class = 'Monk';
+      if(this.character.class == 11)
+      this.character.class = 'Druid';
+      if(this.character.class == 12)
+      this.character.class = 'Demon Hunter';
+	
     this.quests.push("Nome: " + this.character.name +  " | Level: " + this.character.level + " | Achievment Points: "  + this.character.achievementPoints + " | Battlegroup: " + this.character.battlegroup);
     this.questText = '';
     this.itemCount = this.quests.length;
