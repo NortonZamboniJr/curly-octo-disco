@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { Ser1Service } from 'src/app/ser1.service';
 import { HomeComponent } from './home.component';
 
 describe('HomeComponent', () => {
