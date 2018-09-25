@@ -8,6 +8,11 @@ body {
     font-family: 'Raleway' ;
     color: #fff;
     overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.container-page {
+    margin-bottom: 0px;
 }
 
 h1{margin-top:0px}
@@ -41,6 +46,10 @@ input.btn1{
     font-family: 'Raleway';
     
 }
+
+#page-footer-wrapper {
+    visibility: hidden;
+  }      
 
 /*
 input.supernorton{

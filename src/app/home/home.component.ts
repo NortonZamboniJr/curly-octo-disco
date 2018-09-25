@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit {
   search = '';
   error = ''; 
   character;
-
+  server: string = '';
 
   constructor(private service: Ser1Service) { }
 
@@ -76,7 +76,7 @@ export class HomeComponent implements OnInit {
   }
 
    searchCharacter(){ 
-    this.service.getCharacter(this.questText).subscribe( 
+    this.service.getCharacter(this.questText,this.server).subscribe( 
       res => { console.warn(res);
         this.character = res;
         if(this.character.class == 1)
@@ -111,6 +111,10 @@ export class HomeComponent implements OnInit {
       },
     ); 
     
+        // getServer(){
+
+        // }
+
     } 
 
 
