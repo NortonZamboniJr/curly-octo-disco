@@ -1,7 +1,25 @@
+.cover{
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+    margin-top: 0%;
+}
+
+
+.container color-dark {
+    width: 100%;
+}
+
+.container color-light{
+    width:120%;
+}
+
 .container {
     display: grid;
     grid-template-columns: 50% auto;
+    
 }
+
 .col {
     padding: .4em 1.3em;
 }
@@ -31,7 +49,7 @@ input.btn2{
     color: rgb(0, 0, 0);
     margin-bottom: 1em; 
     cursor:pointer;
-    margin-left: 7em;
+    margin-left: 5.6em;
     font-family: Raleway;
 }
 
